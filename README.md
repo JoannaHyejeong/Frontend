@@ -4,6 +4,8 @@
 https://www.w3schools.com/
 
 https://codesandbox.io/
+https://jsbin.com/
+https://developer.mozilla.org/
 
 ## HTML
 
