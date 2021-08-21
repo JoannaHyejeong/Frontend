@@ -101,4 +101,14 @@ https://www.w3schools.com/html/html_lists.asp
 https://www.w3schools.com/html/html_tables.asp
 Table generator : https://www.tablesgenerator.com/
 
-### HTML
+### HTML Images
+https://www.w3schools.com/html/html_images.asp
+
+alt : alternative
+
+### HTML Video
+https://www.w3schools.com/html/html5_video.asp
+
+### HTML Youtube
+https://www.w3schools.com/html/html_youtube.asp
+? 실제 기호와 주소 구분  & 추가 autoplay =1"
