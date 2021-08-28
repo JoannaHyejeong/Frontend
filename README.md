@@ -131,7 +131,7 @@ https://freebiesbug.com/psd-freebies/website-template/
 https://www.w3schools.com/html/html_blocks.asp
 
 > 영역의 특성
-
+>
 > - 블럭요소 : 가로길이 - 부모요소에 채워짐 / 세로길이 - 자식요소에 맞춰짐.
 > - 인라인 요소 : 가로길이와 세로길이 모두 자식요소에 맞춰짐
 
@@ -201,4 +201,67 @@ https://www.w3schools.com/css/css_font.asp
 >
 > - 100, 200, 300 ... : 숫자로 표시
 
-### CSS Links
+### Box Model
+
+http://www.w3schools.com/css/css_boxmodel.asp
+
+> - content(width/height) : 콘텐츠의 너비 또는 높이
+> - padding : 안쪽 여백
+> - border : 테두리
+> - margin : 바깥 여백
+
+### Height / Width
+
+> - 블럭요소의 가로길이/세로길이 적용시
+> - auto : 요소의 기본 특성을 따라감
+> - px : px 값으로 고정
+> - % : 부모요소를 기준으로 특정 비율만큼 설정
+> - 인라인 요소(div를 span으로 변경해놓고 너비 조정했는데 실행안됨)의 가로길이/세로길이는 적용되지 않음
+
+### Padding
+
+> - padding - top / padding-right / padding-bottom / padding-left
+> - padding : 10px 10px 10px 10px;
+> - padding : 10px 10px 10px;
+> - padding : 10px 10px;
+> - padding : 10px;
+
+### Margin
+
+> 마진 겹침 : 박스가 상하배치 되어있을 때 사이 마진이 한쪽만 적용되는 현상
+> 마진겹침현상 - 작은쪽이 큰쪽으로
+>
+> - 두 박스 모두 마진 적용하지 않고 한쪽에만 마진을 적용.
+
+### Border
+
+> border:1px solid red;
+>
+> border-top / border-right / border-bottom / border-left
+
+## Background
+
+https://www.w3schools.com/css/css_background.asp
+
+> Background-color
+>
+> Background-image:url()
+
+### Color 표현방식
+
+> RGB : Red Green Blue - 가산혼합
+>
+> - 빛을 혼합할 때 사용 스크린에서 color 표현
+>
+> CMYK : Cyan Magenta Yellow Black - 감산혼합(색을 섞을수록 밝아짐)
+>
+> - 잉크 혼합으로 프린터에서 color 표현할때 사용하는 방식(색을 섞을수록 어두어짐)
+
+> color 코드 값
+>
+> - 10진수로 표현 : rgb(255, 255, 255)
+> - 16진수로 표현 : #1a9cf0
+
+### Box-sizing
+
+> box-sizing:border-box => width/height가 박스의 전체 길이가 됨
